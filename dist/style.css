@@ -1,0 +1,137 @@
+body{
+  background: #dadbdf;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;  
+  margin: 0;
+  padding: 0;
+}
+
+heather {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: row; 
+  width: 100%;
+  margin: 0px;
+  background: #222;
+  justify-content: center;
+}
+
+button {
+  display: flex;  
+  flex-wrap: wrap;
+  max-width: 100%;
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  font-size: 30px;
+  background: #222;
+  border: none;
+  padding: 30px 80px;
+  cursor: pointer;
+}
+
+div {
+  width: 40%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+  
+  
+
+.head {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; 
+  font-family: 'Abril Fatface', cursive;
+  color: #222 grey;
+  width: 50%;
+ }
+
+main {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  }
+
+img {
+  width: 100%;
+  heigth: 100%;
+ }
+
+.anakin {
+  display: flex;  
+  flex-wrap: wrap;
+  position: absolute;
+  margin-top: 20px;
+  margin-buttom: 30px;
+}
+
+.skywalker {
+display: flex;  
+  flex-wrap: wrap;
+  position: absolute;
+  margin-top: 60px;
+  margin-buttom: 60px;
+   }
+
+blockquote {
+ font-family: 'Abril Fatface', cursive;
+ color: white;
+ font-size: 50px;
+ background: #222;
+ padding: 60px;
+ max-width: 40%;
+  display: flex;
+  flax-wrap: wrap;
+}
+
+blockquote::before {
+  content: '”';
+}
+
+h2 {  
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222 grey;
+  margin-bottom: 60px;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222 grey;
+  margin-bottom: 5px;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222 grey;
+  font-size: 15px;
+  padding: 20px;
+}
+
+li {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222 grey;
+  padding: 5px;
+}
+
+h4 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.analytical {
+  font-size: 30px;
+}
